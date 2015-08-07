@@ -8655,8 +8655,10 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-textfield.is-focused .mdl-textfield__input {
     outline: none; }
   .mdl-textfield.is-invalid .mdl-textfield__input {
-    border-color: rgb(222, 50, 38);
-    box-shadow: none; }
+    border-color: rgb(222, 50, 38); 
+/*    border-color: rgb(255, 255, 255);*/
+    box-shadow: none; 
+  }
   .mdl-textfield.is-disabled .mdl-textfield__input {
     background-color: transparent;
     border-bottom: 1px dotted rgba(0,0,0, 0.12); }
@@ -9649,7 +9651,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 body {
   margin: 0px; }
 
-.styleguide-demo h1 {
+/*.styleguide-demo h1 {
   margin: 48px 24px 0 24px; }
 
 .styleguide-demo h1:after {
@@ -9691,7 +9693,7 @@ body {
   padding: 10px 24px; }
 
 .demosLoaded .styleguide-demo {
-  opacity: 1; }
+  opacity: 1; }*/
 
 iframe {
   display: block;
